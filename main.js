@@ -28,3 +28,8 @@ function checkGuess(guess, count) {
         para.textContent = `${guess} is too low. Try again...`;
     } else {para.textContent = `${guess} is too high. Try again...`;}
 }
+
+// Extra challenges:
+// -> Use on-page feedback instead of alerts
+// - Clear input box and reset the focus to the input box if player guesses wrong.
+// - Add button to reset game, instead of having to refresh the page
